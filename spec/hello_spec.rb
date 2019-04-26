@@ -1,4 +1,5 @@
 require "spec_helper"
+require_relative "../lib/hello.rb"
 
 describe "#hello_t" do
   let (:names) { ["Tim", "Tom", "Jim"] }
